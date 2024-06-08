@@ -20,8 +20,6 @@ builder.Services.AddMediatR(config =>
     config.AddOpenBehavior(typeof(LoggingBehavior<,>));
 });
 
-//builder.Services.AddValidatorsFromAssembly(assembly);
-
 //Data Service
 builder.Services.AddMarten(opts =>
 {
